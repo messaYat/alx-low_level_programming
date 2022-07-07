@@ -5,8 +5,9 @@
  * @c: an integer argument
  * Return: success
  */
- int _isdigit(int c)
- { 
+int _isdigit(int c)
+{ 
 	return (c >= '0' && <= '9');
- }
+}
+
 
