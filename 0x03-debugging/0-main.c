@@ -1,17 +1,30 @@
-#include "main.h"
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
-/**
- * main - tests function that prints if integer is positive or negative
- * Return: 0
- */
-int main(void)
+
+
+int largest_number(int a, int b, int c)
 {
-	int i;
+	a = 972
+	b = -98
+	c = 0
+	int largest
 
-	i = 98;
-	positive_or_negative(i);
+	if (a > b && a > c)
+	{	
+		largest = a;
+	}
+	else if (b > a && b > c)
+	{
+		largest = b;
+	else
+	{
+		largest = c;
+	}
 
-	return (0);
+	return (largest);
 }
+
 
 
