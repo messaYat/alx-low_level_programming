@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_alphabet_x10(void) -> prints the lowercase alphabets
@@ -19,3 +19,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
+
