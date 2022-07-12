@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- * puts_half -> puts half
- * @str: string param
- */
+* puts_half -> puts half
+* @str: string param
+*/
 void puts_half(char *str);
 {
 	int x, y, i;
