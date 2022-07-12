@@ -5,7 +5,7 @@
 * puts_half -> puts half
 * @str: string param
 */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int x, y, i;
 
@@ -18,7 +18,6 @@ void puts_half(char *str);
 		_putchar(str[i]);
 	_putchar('\n');
 }
-
 
 
 
