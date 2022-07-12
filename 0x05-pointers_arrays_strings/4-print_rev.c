@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- * print_rev -> printing a string in reverse
- * @s: the string printed to be in rev
- */
+* print_rev -> printing a string in reverse
+* @s: the string printed to be in rev
+*/
 
 void print_rev(char *s)
 {
