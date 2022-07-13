@@ -7,8 +7,9 @@ int _strlen(char *s);
 void _puts(char *str);
 void puts2(char *str);
 
-void puts_half(char *str)
+void puts_half(char *str);
 void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
 
 #endif
 
