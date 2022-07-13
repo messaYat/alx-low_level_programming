@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 
 /**
 * _stract -> this is a function stract
