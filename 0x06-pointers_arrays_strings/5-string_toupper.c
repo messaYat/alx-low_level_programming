@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * string_toupper -> converting any string to upper case
- * @x: string param
- * Return: string
- */
+* string_toupper -> converting any string to upper case
+* @x: string param
+* Return: string
+*/
 char *string_toupper(char *)
 {
 	int i = 0;
