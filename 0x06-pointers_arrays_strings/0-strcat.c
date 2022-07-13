@@ -3,8 +3,8 @@
 
 /**
 * _stract -> this is a function stract
-* @dest: first parma
-* @src: second parma
+* @dest: first param
+* @src: second param
 * Return: a string
 */
 char *_strcat(char *dest, char *src)
