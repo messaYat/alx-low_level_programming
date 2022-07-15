@@ -5,7 +5,7 @@
 * @x: spring param
 * Return: capitalized version of string
 */
-char *cap_string(char *)
+char *cap_string(char *X)
 {
 char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}' };
 	int len = 13;
