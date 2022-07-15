@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdio.h>
 
 /**
@@ -26,7 +25,6 @@ void reverse_array(int *a, int n)
 
 
 	for (k = 0; k < i / 2; k++)
-	
 	{
 
 		aux = a[k];
