@@ -11,8 +11,8 @@ char *string_toupper(char *)
 
 	while (X[i])
 	{
-		if (X[i]  >=  97  &&  X[i]  <=  122)
-			X[i]  =  X[i]  -  32;
+		if (x[i]  >=  97  &&  x[i]  <=  122)
+			x[i]  =  x[i]  -  32;
 		i++;
 	}
 	return (X);
