@@ -2,21 +2,35 @@
 
 /**
 * string_toupper -> converting any string to upper case
-* @x: string param
-* Return: string
+* @p: The string will be modified
+*
+* Return: char var
 */
-char *string_toupper(char *)
-{
-	int i = 0;
 
-	while (X[i])
+char *string_toupper(char *p)
+
+{
+
+	int a = 0;
+
+	while (p[a])
 	{
-		if (x[i]  >=  97  &&  x[i]  <=  122)
-			x[i]  =  x[i]  -  32;
-		i++;
+
+		if (p[a] >= 97 && p[a] <= 122)
+
+		{
+
+			p[a] -= 32;
+
+		}
+		
+		a++;
 	}
-	return (X);
+
+	return (p);
 
 }
+
+
 
 
