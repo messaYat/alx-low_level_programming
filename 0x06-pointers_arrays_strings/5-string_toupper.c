@@ -5,14 +5,14 @@
 * @x: string param
 * Return: string
 */
-char *string_toupper(char *x)
+char *string_toupper(char *X)
 {
 	int i = 0;
 
-	while (X[i])
+	while (x[i])
 	{
-		if (X[i]  >=  97  &&  X[i]  <=  122)
-			X[i]  =  X[i]  -  32;
+		if (x[i]  >=  97  &&  x[i]  <=  122)
+			x[i]  =  x[i]  -  32;
 		i++;
 	}
 	return (X);
