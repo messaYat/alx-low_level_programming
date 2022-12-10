@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - annoynig
+ * main - annoying
  *
  * Return: 0
  */
