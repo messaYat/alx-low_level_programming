@@ -13,7 +13,7 @@
  * (every other function (printf, puts, etc…) is forbidden)
  * You can only use putchar five times maximum in your code
  * All your code should be in the main function
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
