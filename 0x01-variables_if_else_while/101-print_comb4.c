@@ -6,7 +6,8 @@
  * combinations of two digits
  * Numbers musb be separated by ,, followed by space
  * The two digits must be different
- * 01 and 10 are considered the same combination of the two digits 0 and 1
+ * 012, 120, 102, 021, 201, 210 are considered the same combination of the thre
+ * digits 0, 1 and 2
  * Print only the smallest combination of two digits
  * Numbers should be printed in ascending order, with two digits
  * You can only use the putchar function
