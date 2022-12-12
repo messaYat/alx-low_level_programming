@@ -3,18 +3,18 @@
 /**
  * main - main block
  * Descrpition: Write a program that prints all possible
- * combinations of two digits
- * Numbers musb be separated by ,, followed by space
- * The two digits must be different
+ * combinations of three digits
+ * Numbers must be separated by ,, followed by space
+ * The three digits must be different
  * 012, 120, 102, 021, 201, 210 are considered the same combination of the thre
  * digits 0, 1 and 2
- * Print only the smallest combination of two digits
- * Numbers should be printed in ascending order, with two digits
+ * Print only the smallest combination of three digits
+ * Numbers should be printed in ascending order, with three digits
  * You can only use the putchar function
  * (every other function (printf, puts, etc…) is forbidden)
  * You can only use putchar five times maximum in your code
  * All your code should be in the main function
- * Return: 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -36,7 +36,7 @@ int main(void)
 					putchar('0' + d);
 					putchar('0' + c);
 
-					if (c + d + e != 0 + 1 + 2)
+					if (c + d + e != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
@@ -51,3 +51,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
