@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * more_numbers - nmb fct
+ * more_numbers - print more num
  *
  * Return: no return
  */
