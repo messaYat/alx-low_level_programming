@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+
 /**
  * main - multplies two positive numbers
  * @argc: n arguments
