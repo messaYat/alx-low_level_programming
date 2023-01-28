@@ -5,7 +5,7 @@ section .text
 main:
 	push rbp
 	mov rdi,fmt;
-	mov rsi,mig
+	mov rsi,msg
 	mov rax,0
 	call printf
 
