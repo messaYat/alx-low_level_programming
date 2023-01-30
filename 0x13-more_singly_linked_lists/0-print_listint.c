@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdio.h>
 /**
  * print_lists - prints all the elements of a linked list
  * @h: liked list of type listit_t to print
