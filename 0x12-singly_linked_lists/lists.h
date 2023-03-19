@@ -1,18 +1,16 @@
-#ifndef LISTS_H
-#define LISTS_H
-
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * struct lists_s - singly liked list
+ * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for projects
+ * for Holberton project
  */
-typedef struct lists_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int len;
@@ -25,5 +23,9 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-#endif /* LISTS_H */
+/* added const */
 
+int _strlen(const char *s);
+char *_strdup(const char *str);
+
+#endif /* LISTS_H */
