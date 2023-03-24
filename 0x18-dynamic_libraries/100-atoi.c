@@ -9,6 +9,7 @@
  */
 
 int _atoi(char *s)
+{
 	int sign;
 	unsigned int num;
 	char *temp;
@@ -31,8 +32,3 @@ int _atoi(char *s)
 	}
 	return (num * sign);
 }
-
-
-
-
-
