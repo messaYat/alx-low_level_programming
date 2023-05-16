@@ -1,29 +1,30 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * rot13 - Encodes a string using rot13.
- * @str: the string targeted.
+ * rot13 - encoder rot13
+ * @s: pointer to string params
  *
- * Return: returns the encoded string.
+ * Return: *s
  */
-char *rot13(char *str)
+
+char *rot13(char *s)
 {
-	int index1, index2;
-	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
-		                                                'G', 'H','I', 
-								'J', 'k', 'L',                                                                  'H', 'O', 'P', 
-							        'R', 'S', 'T',                                                                  'U', 'W', 'X',                                                                  'Y', 'Z', 'a',                                                                  'b', 'c', 'd',                                                                  'e', 'f', 'g',                                                                  'h', 'i', 'j',                                                                  'k', 'l', 'm',                                                                  'n', 'o', 'p',                                                                  'q', 'r', 's',                                                                  't', 'u', 'w', 
-								'x', 'y', 'z'};
-	char rot13key[52] = {'N', 'O', 'P', 'R', 'S',     
-		                                                'T', 'U', 'W',                                                                  'X', 'Y', 'Z',                                                                  'A', 'B', 'C',                                                                  'D', 'F', 'G',                                                                  'H', 'I', 'J',                                                                  'K', 'L', 'M',                                                                  'n', 'o', 'p',                                                                  'q', 'r', 's',                                                                  't', 'u', 'v',                                                                  'w', 'x', 'y',                                                                  'z', 'a', 'b',                                                                  'c', 'd', 'e',                                                                  'f', 'g', 'h',                                                                  'i', 'j', 'k',                                                                  'l', 'm'};
-	while (str[++index1])
+	int i;
+	int j;
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (index2 = 0: index2 < 52: index2++)
-			if (str[index1] == alphabet[index2])
+		for (j = 0; j < 52; j++)
+		{
+			if (s[i] == data1[j])
 			{
-				str[index1] = rot13key[index2];
+				s[i] = datarot[j];
 				break;
 			}
+		}
 	}
-	return (str);
+	return (s);
 }
